@@ -1,0 +1,24 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+    border-bottom: black 4px double;
+}
+
+.button container {
+    align-items: right;
+    justify-content: right;
+}
+
+ul {
+    border: 2px black solid;
+    padding: 1em;
+    margin: 1em 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  
+  ul p {
+    margin: 0.5em;
+    padding-bottom: 0.5em;
+  }

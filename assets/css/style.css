@@ -1,0 +1,19 @@
+.label {
+    width:500px;
+    height:200px
+    position relative;
+    display:block;
+    background: #ebebeb
+}
+
+body {
+    background-color: rgb(83, 168, 179);
+}
+
+.darkMode {
+    background-color: rgb(29, 28, 28);
+}
+
+#button {
+    float:right;
+}

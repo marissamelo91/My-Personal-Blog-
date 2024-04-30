@@ -1,0 +1,47 @@
+.main-div {
+    display: flex;
+    height: 85vh;
+}
+
+.left-content-div {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: black 4px double;
+}
+
+.right-content-div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: black 4px;
+    padding-right: 10%;
+    margin: 10px;
+   
+}
+
+img {
+    height: 50%;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    border-bottom: black 4px double; 
+    
+}
+
+.textarea {
+justify-content: center;
+
+}

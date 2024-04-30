@@ -1,13 +1,11 @@
 # My-Personal-Blog-
 
-
-
 In this challenge, you'll create a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. As you code, you'll gain practical JavaScript experience, explore the Document Object Model's power, and set the stage for more advanced tasks.
 
-User Story
-AS A marketing student
-I WANT a personal blog
-SO THAT I can showcase my thoughts and experiences
+[Deployed link]
+
+[Screenshot]
+
 
 Acceptance Criteria
 GIVEN a personal blog
@@ -33,3 +31,5 @@ WHEN I take a closer look at a single blog entry in the list,
 THEN I can see the title, the content, and the author of the post.
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
+
+[Credit] I got help from Tutors, classmate, Youtube tutorials and W3Schools.

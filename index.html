@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/form.css">
-    <title>Personal Blog</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>My Personal Blog</title>
 </head>
+
 <body>
-    <header class="header">
-        <h1>My Personal Blog</h1>
+    <header>
+        <nav class="navbar">
+            <button id="dark-mode-toggle" class="dark-mode-toggle">🌞</button>
+        </nav>
     </header>
-
-
-
-
-
-    
-    <script src="./assets/js/form.js"></script>
+    <div class="main-div">
+        <!--Left Section for Large Blog Image-->
+        <div class="left-content-div">
+            <img src="./assets/css/Halloween-Blog-Image.jpg">
+        </div>
+        <!--Right Section for User Input-->
+        <div class="right-content-div">
+            <div class="form-div"></div>
+            <!--Form User Input-->
+                <form id="form-blog">
+                    <h2>What's on your spooky mind?</h2>
+                    <p>
+                        <label for="username">
+                            <span>Username: </span>
+                            <strong><span aria-label="required"></span></strong>
+                        </label>
+                        <input type="text" id="username" name="username" required />
+                    </p>
+                    <p>
+                        <label for="title">
+                            <span>Title: </span>
+                            <strong><span aria-label="required"></span></strong>
+                        </label>
+                        <input type="text" id="title" name="title" required />
+                    </p>
+                    <p>
+                        <label for="content">
+                            <span>Content: </span>
+                            <strong><span aria-label="required"></span></strong>
+                        </label>
+                        <textarea rows="5" cols="25" id="content" name="content" required></textarea>
+                    </p>
+                    <input type="submit" value="submit" id="submit">
+                </form>
+            </div>
+        </div>
+        <!--Javacript External Links-->
+        <script src="./assets/js/form.js"></script>
+        <script src="./assets/js/logic.js"></script>
+    </div>
 </body>
+
 </html>

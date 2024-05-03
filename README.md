@@ -4,6 +4,7 @@
 The Halloween Blog is a two-page website displaying input text where users can fill out their name and thoughts. After clicking sumbit, users are then taking to the second page where all the answers are shown. Theres a light/dark mode toggle displayed on the right corner.  
 
 ## Deployed Link
+https://marissamelo91.github.io/My-Personal-Blog-/
 
 ## Screenshot Of Project 
 ![screen shot](./assets/css/Screenshot-Blog-Page.png)

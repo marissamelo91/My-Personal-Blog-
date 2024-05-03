@@ -1,11 +1,13 @@
 # My-Personal-Blog-
 
-In this challenge, you'll create a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. As you code, you'll gain practical JavaScript experience, explore the Document Object Model's power, and set the stage for more advanced tasks.
+## Challenge Four 
+The Halloween Blog is a two-page website displaying input text where users can fill out their name and thoughts. After clicking sumbit, users are then taking to the second page where all the answers are shown. Theres a light/dark mode toggle displayed on the right corner.  
 
-[Deployed link]
+## Deployed Link
 
-[Screenshot]
-
+## Screenshot Of Project 
+![screen shot](./assets/css/Screenshot-Blog-Page.png)
+![screen shot](./assets/css/Halloween-Entries.png)
 
 Acceptance Criteria
 GIVEN a personal blog
@@ -19,6 +21,7 @@ WHEN I enter try to submit a form without a username, title, or content,
 THEN I am presented with a message that prompts me to complete the form.
 WHEN I view the posts page,
 THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button.
+
 WHEN I click the light mode/dark mode toggle,
 THEN the page content's styles update to reflect the selection.
 WHEN I click the "Back" button,
@@ -32,4 +35,5 @@ THEN I can see the title, the content, and the author of the post.
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 
-[Credit] I got help from Tutors, classmate, Youtube tutorials and W3Schools.
+## Credits
+I received tremendous amount of help from Tutors, my classmate, Youtube tutorials (BroCode Channel) and W3Schools.

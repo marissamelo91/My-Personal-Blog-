@@ -5,6 +5,7 @@ const contentInput = document.querySelector('#content');
 const submitButton = document.querySelector('#submit');
 const createForm = document.querySelector("#form-blog");
 
+//Add event listener function to sumbit button.
 createForm.addEventListener("submit",(event) => {
 event.preventDefault()
 

@@ -4,9 +4,11 @@
     border-bottom: black 4px double;
 }
 
-.button container {
+.button-container {
     align-items: right;
     justify-content: right;
+    padding-left: 70%;
+    margin-top: 5%;
 }
 
 ul {
@@ -22,3 +24,4 @@ ul {
     margin: 0.5em;
     padding-bottom: 0.5em;
   }
+
